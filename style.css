@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --mainColor: #9d6bfafa;
+}
+.mainBody {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "main main"
+    "main main"
+    "footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
