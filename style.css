@@ -201,3 +201,85 @@
     order: 1;
   }
 }
+.opiniones {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.opiniones .sub-title {
+  margin-bottom: 2rem;
+  color: var(--mainColor);
+}
+
+.opinion {
+  display: inline-block;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.opinion img {
+  float: left;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.opinion h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: var(--mainColor);
+}
+
+.opinion h4 {
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+  color: #555;
+}
+
+.opinion p {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+  clear: both;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: var(--mainColor);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.footer .menu {
+  margin-bottom: 1rem;
+}
+
+.footer .menu a {
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+
+.footer .rrss {
+  margin-top: 1rem;
+}
+
+.footer .rrss h2 {
+  font-size: 1.1rem;
+}
+
+.footer .rounded-logos img {
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+}
